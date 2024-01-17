@@ -39,4 +39,6 @@ uid = '123';
 uid = 123;
 var ninjaOne;
 ninjaOne = { name: 'yoshi', age: 30 };
+// Möjligt att ändra till en array men inte något annat.
+ninjaOne = [];
 var ninjaTwo;

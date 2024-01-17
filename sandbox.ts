@@ -45,6 +45,8 @@ uid = 123;
 
 let ninjaOne: object;
 ninjaOne = { name: 'yoshi', age: 30 };
+// Möjligt att ändra till en array men inte något annat.
+ninjaOne = [];
 
 let ninjaTwo: {
   name: string;
