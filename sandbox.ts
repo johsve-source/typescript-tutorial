@@ -14,13 +14,6 @@ let ninja1 = createNinja('Ryu', 'Black', 30);
 
 console.log(ninja1); */
 
-let character: string;
-let age: number;
-let isLoggedIn: boolean;
-
-age = 30;
-isLoggedIn = true;
-
 /* 
 This is how you make an array of strings, there is a difference in vanilla js when you just do it like 
 let ninjas = []; 
