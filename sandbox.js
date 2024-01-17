@@ -9,3 +9,12 @@ mixed.push('barbie');
 console.log(mixed);
 mixed.push(20);
 console.log(mixed);
+var ninja = {
+    name: 'mario',
+    belt: 'black',
+    age: 30,
+};
+ninja.age = 40;
+ninja.name = 'ryu';
+ninja.belt = 'blue';
+console.log("".concat(ninja.name, " is ").concat(ninja.age, " and has a ").concat(ninja.belt, " belt."));

@@ -13,3 +13,15 @@ mixed.push('barbie');
 console.log(mixed);
 mixed.push(20);
 console.log(mixed);
+
+let ninja = {
+  name: 'mario',
+  belt: 'black',
+  age: 30,
+};
+
+ninja.age = 40;
+ninja.name = 'ryu';
+ninja.belt = 'blue';
+
+console.log(`${ninja.name} is ${ninja.age} and has a ${ninja.belt} belt.`);
