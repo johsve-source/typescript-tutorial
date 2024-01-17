@@ -31,3 +31,12 @@ ninjas.push(1);
 console.log(ninjas);
 ninjas.push(true);
 console.log(ninjas);
+/*
+Union type "(number | string)[]" används bara när den är framför en array men om de inte är en array så behövs inte union type, exempel neranför.
+*/
+var uid;
+uid = '123';
+uid = 123;
+var ninjaOne;
+ninjaOne = { name: 'yoshi', age: 30 };
+var ninjaTwo;

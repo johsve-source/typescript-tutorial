@@ -42,3 +42,12 @@ Union type "(number | string)[]" används bara när den är framför en array me
 let uid: string | number;
 uid = '123';
 uid = 123;
+
+let ninjaOne: object;
+ninjaOne = { name: 'yoshi', age: 30 };
+
+let ninjaTwo: {
+  name: string;
+  age: number;
+  belt: string;
+};
