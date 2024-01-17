@@ -1,11 +1,4 @@
-let character = 'luigi';
-let age = 30;
-let isBlackBelt = false;
+let names = ['luigi', 'mario', 'yoshi'];
 
-character = '32';
-
-const circ = (diameter: number) => {
-  return diameter * Math.PI;
-};
-
-console.log(circ(12));
+names.push('toad');
+console.log(names[3]);
