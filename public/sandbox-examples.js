@@ -61,3 +61,4 @@ ninja = {
     age: 'yoshi',
 };
 console.log(ninja);
+//# sourceMappingURL=sandbox-examples.js.map
