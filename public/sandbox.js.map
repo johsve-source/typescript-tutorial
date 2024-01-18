@@ -1,1 +1,1 @@
-{"version":3,"file":"sandbox.js","sourceRoot":"","sources":["../src/sandbox.ts"],"names":[],"mappings":";AAAA,IAAI,SAAS,GAAW,OAAO,CAAC;AAChC,OAAO,CAAC,GAAG,CAAC,SAAS,CAAC,CAAC"}
+{"version":3,"file":"sandbox.js","sourceRoot":"","sources":["../src/sandbox.ts"],"names":[],"mappings":";AAAA,IAAI,SAAS,GAAW,OAAO,CAAC;AAChC,OAAO,CAAC,GAAG,CAAC,SAAS,CAAC,CAAC;AAEvB,MAAM,GAAG,GAAG;IACV,EAAE,EAAE,CAAC,CAAC;IACN,KAAK,EAAE,CAAC,EAAU,EAAE,EAAE;QACpB,OAAO,CAAC,GAAG,CAAC,WAAW,EAAE,cAAc,CAAC,CAAC;IAC3C,CAAC;CACF,CAAC;AAEF,OAAO,CAAC,GAAG,CAAC,GAAG,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC,CAAC"}
