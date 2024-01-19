@@ -99,3 +99,20 @@ console.log(erik);
 console.log(jonas);
 console.log(emma);
 console.log(linnea);
+
+const addSubjects = (
+  person: LexiconStudent | LexiconTeacher,
+  subject: string
+) => {
+  if (name === null || subject === null) {
+    return console.log('ERROR: You need to provide the correct information.');
+  }
+  person.subjects.push(subject);
+  if (!person.subjects.includes(subject)) {
+    return console.log(`${person}'s failed to be added to the subjects lists.`);
+  } else {
+    console.log(`${subject} has been added to ${person}'s subjects.`);
+  }
+};
+
+addSubjects(niklas, 'HTML');
