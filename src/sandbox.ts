@@ -3,8 +3,8 @@ let lexicon = {
   address: 'Kovägen 22',
   zip: 55655,
   city: 'Stockholm',
-  students: [] as LexiconStudent[],
-  teachers: [] as LexiconTeacher[],
+  students: [] as string[],
+  teachers: [] as string[],
 };
 
 type LexiconSubject = {
@@ -115,19 +115,29 @@ const addSubjects = (
   }
 };
 
-const addTeacher = (person: LexiconTeacher) => {
-  if (
-    !person ||
-    typeof person.name !== 'string' ||
-    !Array.isArray(person.subjects)
-  ) {
+const addTeacher = (person: string) => {
+  if (!person || typeof person !== 'string') {
     return console.log(
       'ERROR: You need to provide the correct information. (Person) should be a string.'
     );
   }
-  const newTeacher: LexiconTeacher = {
-    name: person.name,
-    subjects: person.subjects.slice(),
-  };
-  lexicon.teachers.push(newTeacher);
+  lexicon.teachers.push(person);
+  console.log(`Teacher ${person} has been added to the teachers list.`);
 };
+
+const addStudent = (person: string) => {
+  if (!person || typeof person !== 'string') {
+    return console.log(
+      'ERROR: You need to provide the correct information. (Person) should be a string.'
+    );
+  }
+  lexicon.students.push(person);
+  console.log(`Student ${person} has been added to the students list.`);
+};
+
+addStudent('Johan');
+addTeacher('Niklas');
+addSubjects(niklas, 'html');
+
+console.log(lexicon.students);
+console.log(lexicon.teachers);
