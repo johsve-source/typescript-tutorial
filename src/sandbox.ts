@@ -3,7 +3,7 @@ let lexicon = {
   address: 'Kovägen 22',
   zip: 55655,
   city: 'Stockholm',
-  students: ['Johan', 'Erik', 'Jonas'],
+  students: ['Johan', 'Erik', 'Jonas', 'Emma', 'Linnea'],
   teachers: ['Niklas', 'Thomas', 'Maja'],
 };
 
@@ -23,19 +23,19 @@ type LexiconStudent = {
 
 let lexiconMath: LexiconSubject = {
   name: 'math',
-  students: ['Johan', 'Erik', 'Jonas'],
+  students: ['Johan', 'Erik', 'Jonas', 'Emma', 'Linnea'],
   teachers: ['Niklas', 'Thomas', 'Maja'],
 };
 
 let lexiconBiology: LexiconSubject = {
   name: 'biology',
-  students: ['Johan', 'Erik', 'Jonas'],
+  students: ['Johan', 'Erik', 'Jonas', 'Emma', 'Linnea'],
   teachers: ['Niklas', 'Thomas', 'Maja'],
 };
 
 let lexiconEnglish: LexiconSubject = {
   name: 'english',
-  students: ['Johan', 'Erik', 'Jonas'],
+  students: ['Johan', 'Erik', 'Jonas', 'Emma', 'Linnea'],
   teachers: ['Niklas', 'Thomas', 'Maja'],
 };
 
@@ -58,6 +58,22 @@ let student2: LexiconStudent = {
 let student3: LexiconStudent = {
   name: 'Jonas',
   age: 31,
+  gender: 'Male',
+  class: 'React_2023',
+  subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
+};
+
+let student4: LexiconStudent = {
+  name: 'Emma',
+  age: 19,
+  gender: 'Male',
+  class: 'React_2023',
+  subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
+};
+
+let student5: LexiconStudent = {
+  name: 'Linnea',
+  age: 28,
   gender: 'Male',
   class: 'React_2023',
   subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
