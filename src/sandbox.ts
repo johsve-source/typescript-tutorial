@@ -7,19 +7,7 @@ let lexicon = {
   teachers: ['Niklas', 'Thomas', 'Maja'],
 };
 
-type LexiconMath = {
-  name: string;
-  students: string[];
-  teachers: string[];
-};
-
-type LexiconBiology = {
-  name: string;
-  students: string[];
-  teachers: string[];
-};
-
-type LexiconEnglish = {
+type LexiconSubject = {
   name: string;
   students: string[];
   teachers: string[];
@@ -31,6 +19,24 @@ type LexiconStudent = {
   gender: string;
   class: string;
   subjects: string[];
+};
+
+let lexiconMath: LexiconSubject = {
+  name: 'math',
+  students: ['Johan', 'Erik', 'Jonas'],
+  teachers: ['Niklas', 'Thomas', 'Maja'],
+};
+
+let lexiconBiology: LexiconSubject = {
+  name: 'biology',
+  students: ['Johan', 'Erik', 'Jonas'],
+  teachers: ['Niklas', 'Thomas', 'Maja'],
+};
+
+let lexiconEnglish: LexiconSubject = {
+  name: 'english',
+  students: ['Johan', 'Erik', 'Jonas'],
+  teachers: ['Niklas', 'Thomas', 'Maja'],
 };
 
 let student1: LexiconStudent = {

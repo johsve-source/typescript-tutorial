@@ -7,6 +7,21 @@ let lexicon = {
     students: ['Johan', 'Erik', 'Jonas'],
     teachers: ['Niklas', 'Thomas', 'Maja'],
 };
+let lexiconMath = {
+    name: 'math',
+    students: ['Johan', 'Erik', 'Jonas'],
+    teachers: ['Niklas', 'Thomas', 'Maja'],
+};
+let lexiconBiology = {
+    name: 'biology',
+    students: ['Johan', 'Erik', 'Jonas'],
+    teachers: ['Niklas', 'Thomas', 'Maja'],
+};
+let lexiconEnglish = {
+    name: 'english',
+    students: ['Johan', 'Erik', 'Jonas'],
+    teachers: ['Niklas', 'Thomas', 'Maja'],
+};
 let student1 = {
     name: 'Johan',
     age: 26,
