@@ -1,11 +1,10 @@
-let character: string = 'maria';
-console.log(character);
-
-const car = {
-  id: -1,
-  start: (id: number) => {
-    console.log(`The car ${id} is running!`);
-  },
+const startGame = () => {
+  let messagesElement = document.getElementById('messages');
+  messagesElement!.innerText = 'Welcome to MultiMath!, Starting new game...';
 };
 
-console.log(car.start(0));
+const logPlayer = (name: string) => {
+  console.log(`New game starting for player: ${name}`);
+};
+
+document.getElementById('startGame')!.addEventListener('click', startGame);
