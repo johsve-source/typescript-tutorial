@@ -100,7 +100,7 @@ console.log(jonas);
 console.log(emma);
 console.log(linnea);
 
-const addSubjects = (
+const enlistToSubject = (
   person: LexiconStudent | LexiconTeacher,
   subject: string
 ) => {
@@ -137,7 +137,7 @@ const addStudent = (person: string) => {
 
 addStudent('Johan');
 addTeacher('Niklas');
-addSubjects(niklas, 'html');
+enlistToSubject(niklas, 'html');
 
 console.log(lexicon.students);
 console.log(lexicon.teachers);

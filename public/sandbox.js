@@ -70,7 +70,7 @@ console.log(erik);
 console.log(jonas);
 console.log(emma);
 console.log(linnea);
-const addSubjects = (person, subject) => {
+const enlistToSubject = (person, subject) => {
     if (person === null || subject === null) {
         return console.log('ERROR: You need to provide the correct information.');
     }
@@ -98,7 +98,7 @@ const addStudent = (person) => {
 };
 addStudent('Johan');
 addTeacher('Niklas');
-addSubjects(niklas, 'html');
+enlistToSubject(niklas, 'html');
 console.log(lexicon.students);
 console.log(lexicon.teachers);
 //# sourceMappingURL=sandbox.js.map
