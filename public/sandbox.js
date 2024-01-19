@@ -34,42 +34,44 @@ let lexiconJS = {
         Maja: 'HTML Teacher',
     },
 };
-let student1 = {
+let johan = {
     name: 'Johan',
     age: 26,
     gender: 'Male',
     class: 'React_2023',
     subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
 };
-let student2 = {
+let erik = {
     name: 'Erik',
     age: 22,
     gender: 'Male',
     class: 'React_2023',
     subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
 };
-let student3 = {
+let jonas = {
     name: 'Jonas',
     age: 31,
     gender: 'Male',
     class: 'React_2023',
     subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
 };
-let student4 = {
+let emma = {
     name: 'Emma',
     age: 19,
     gender: 'Male',
     class: 'React_2023',
     subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
 };
-let student5 = {
+let linnea = {
     name: 'Linnea',
     age: 28,
     gender: 'Male',
     class: 'React_2023',
     subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
 };
-console.log(student1);
-console.log(student2);
-console.log(student3);
+console.log(johan);
+console.log(erik);
+console.log(jonas);
+console.log(emma);
+console.log(linnea);
 //# sourceMappingURL=sandbox.js.map

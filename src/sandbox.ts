@@ -51,7 +51,7 @@ let lexiconJS: LexiconSubject = {
   },
 };
 
-let student1: LexiconStudent = {
+let johan: LexiconStudent = {
   name: 'Johan',
   age: 26,
   gender: 'Male',
@@ -59,7 +59,7 @@ let student1: LexiconStudent = {
   subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
 };
 
-let student2: LexiconStudent = {
+let erik: LexiconStudent = {
   name: 'Erik',
   age: 22,
   gender: 'Male',
@@ -67,7 +67,7 @@ let student2: LexiconStudent = {
   subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
 };
 
-let student3: LexiconStudent = {
+let jonas: LexiconStudent = {
   name: 'Jonas',
   age: 31,
   gender: 'Male',
@@ -75,7 +75,7 @@ let student3: LexiconStudent = {
   subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
 };
 
-let student4: LexiconStudent = {
+let emma: LexiconStudent = {
   name: 'Emma',
   age: 19,
   gender: 'Male',
@@ -83,7 +83,7 @@ let student4: LexiconStudent = {
   subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
 };
 
-let student5: LexiconStudent = {
+let linnea: LexiconStudent = {
   name: 'Linnea',
   age: 28,
   gender: 'Male',
@@ -91,6 +91,8 @@ let student5: LexiconStudent = {
   subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
 };
 
-console.log(student1);
-console.log(student2);
-console.log(student3);
+console.log(johan);
+console.log(erik);
+console.log(jonas);
+console.log(emma);
+console.log(linnea);
