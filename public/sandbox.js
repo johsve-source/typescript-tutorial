@@ -1,12 +1,14 @@
 "use strict";
-const startGame = () => {
-    let playerName = 'Audrey';
-    logPlayer(playerName);
-    let messagesElement = document.getElementById('messages');
-    messagesElement.innerText = 'Welcome to MultiMath!, Starting new game..';
+let lexicon = {
+    name: 'lexicon',
+    students: [],
+    teachers: [],
 };
-const logPlayer = (name) => {
-    console.log(`New game starting for player: ${name}.`);
+const lexiconStudent = {
+    name: 'undefined',
+    age: -1,
+    gender: 'undefined',
+    class: 'undefined',
+    subjects: [],
 };
-document.getElementById('startGame').addEventListener('click', startGame);
 //# sourceMappingURL=sandbox.js.map
