@@ -71,7 +71,7 @@ console.log(jonas);
 console.log(emma);
 console.log(linnea);
 const addSubjects = (person, subject) => {
-    if (name === null || subject === null) {
+    if (person === null || subject === null) {
         return console.log('ERROR: You need to provide the correct information.');
     }
     person.subjects.push(subject);
@@ -82,6 +82,16 @@ const addSubjects = (person, subject) => {
         console.log(`${subject} has been added to ${person.name}'s subjects.`);
     }
 };
-addSubjects(niklas, 'HTML');
-addSubjects(johan, 'HTML');
+const addTeacher = (person) => {
+    if (!person ||
+        typeof person.name !== 'string' ||
+        !Array.isArray(person.subjects)) {
+        return console.log('ERROR: You need to provide the correct information. (Person) should be a string.');
+    }
+    const newTeacher = {
+        name: person.name,
+        subjects: person.subjects.slice(),
+    };
+    lexicon.teachers.push(newTeacher);
+};
 //# sourceMappingURL=sandbox.js.map

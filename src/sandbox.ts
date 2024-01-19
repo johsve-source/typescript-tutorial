@@ -3,8 +3,8 @@ let lexicon = {
   address: 'Kovägen 22',
   zip: 55655,
   city: 'Stockholm',
-  students: [],
-  teachers: [],
+  students: [] as LexiconStudent[],
+  teachers: [] as LexiconTeacher[],
 };
 
 type LexiconSubject = {
@@ -115,5 +115,19 @@ const addSubjects = (
   }
 };
 
-addSubjects(niklas, 'HTML');
-addSubjects(johan, 'HTML');
+const addTeacher = (person: LexiconTeacher) => {
+  if (
+    !person ||
+    typeof person.name !== 'string' ||
+    !Array.isArray(person.subjects)
+  ) {
+    return console.log(
+      'ERROR: You need to provide the correct information. (Person) should be a string.'
+    );
+  }
+  const newTeacher: LexiconTeacher = {
+    name: person.name,
+    subjects: person.subjects.slice(),
+  };
+  lexicon.teachers.push(newTeacher);
+};
