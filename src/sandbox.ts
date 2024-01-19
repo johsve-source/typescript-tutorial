@@ -23,32 +23,20 @@ type LexiconStudent = {
 
 let lexiconHTML: LexiconSubject = {
   name: 'html',
-  students: ['Johan', 'Erik', 'Jonas', 'Emma', 'Linnea'],
-  teachers: {
-    Niklas: 'HTML Teacher',
-    Thomas: 'HTML Teacher',
-    Maja: 'HTML Teacher',
-  },
+  students: [],
+  teachers: {},
 };
 
 let lexiconCSS: LexiconSubject = {
   name: 'css',
-  students: ['Johan', 'Erik', 'Jonas', 'Emma', 'Linnea'],
-  teachers: {
-    Niklas: 'HTML Teacher',
-    Thomas: 'HTML Teacher',
-    Maja: 'HTML Teacher',
-  },
+  students: [],
+  teachers: {},
 };
 
 let lexiconJS: LexiconSubject = {
   name: 'javascript',
-  students: ['Johan', 'Erik', 'Jonas', 'Emma', 'Linnea'],
-  teachers: {
-    Niklas: 'HTML Teacher',
-    Thomas: 'HTML Teacher',
-    Maja: 'HTML Teacher',
-  },
+  students: [],
+  teachers: {},
 };
 
 let johan: LexiconStudent = {
@@ -56,7 +44,7 @@ let johan: LexiconStudent = {
   age: 26,
   gender: 'Male',
   class: 'React_2023',
-  subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
+  subjects: [],
 };
 
 let erik: LexiconStudent = {
@@ -64,7 +52,7 @@ let erik: LexiconStudent = {
   age: 22,
   gender: 'Male',
   class: 'React_2023',
-  subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
+  subjects: [],
 };
 
 let jonas: LexiconStudent = {
@@ -72,7 +60,7 @@ let jonas: LexiconStudent = {
   age: 31,
   gender: 'Male',
   class: 'React_2023',
-  subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
+  subjects: [],
 };
 
 let emma: LexiconStudent = {
@@ -80,7 +68,7 @@ let emma: LexiconStudent = {
   age: 19,
   gender: 'Male',
   class: 'React_2023',
-  subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
+  subjects: [],
 };
 
 let linnea: LexiconStudent = {
@@ -88,7 +76,7 @@ let linnea: LexiconStudent = {
   age: 28,
   gender: 'Male',
   class: 'React_2023',
-  subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
+  subjects: [],
 };
 
 console.log(johan);

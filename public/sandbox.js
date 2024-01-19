@@ -9,65 +9,53 @@ let lexicon = {
 };
 let lexiconHTML = {
     name: 'html',
-    students: ['Johan', 'Erik', 'Jonas', 'Emma', 'Linnea'],
-    teachers: {
-        Niklas: 'HTML Teacher',
-        Thomas: 'HTML Teacher',
-        Maja: 'HTML Teacher',
-    },
+    students: [],
+    teachers: {},
 };
 let lexiconCSS = {
     name: 'css',
-    students: ['Johan', 'Erik', 'Jonas', 'Emma', 'Linnea'],
-    teachers: {
-        Niklas: 'HTML Teacher',
-        Thomas: 'HTML Teacher',
-        Maja: 'HTML Teacher',
-    },
+    students: [],
+    teachers: {},
 };
 let lexiconJS = {
     name: 'javascript',
-    students: ['Johan', 'Erik', 'Jonas', 'Emma', 'Linnea'],
-    teachers: {
-        Niklas: 'HTML Teacher',
-        Thomas: 'HTML Teacher',
-        Maja: 'HTML Teacher',
-    },
+    students: [],
+    teachers: {},
 };
 let johan = {
     name: 'Johan',
     age: 26,
     gender: 'Male',
     class: 'React_2023',
-    subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
+    subjects: [],
 };
 let erik = {
     name: 'Erik',
     age: 22,
     gender: 'Male',
     class: 'React_2023',
-    subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
+    subjects: [],
 };
 let jonas = {
     name: 'Jonas',
     age: 31,
     gender: 'Male',
     class: 'React_2023',
-    subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
+    subjects: [],
 };
 let emma = {
     name: 'Emma',
     age: 19,
     gender: 'Male',
     class: 'React_2023',
-    subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
+    subjects: [],
 };
 let linnea = {
     name: 'Linnea',
     age: 28,
     gender: 'Male',
     class: 'React_2023',
-    subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
+    subjects: [],
 };
 console.log(johan);
 console.log(erik);
