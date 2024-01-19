@@ -4,8 +4,8 @@ let lexicon = {
     address: 'Kovägen 22',
     zip: 55655,
     city: 'Stockholm',
-    students: ['Johan', 'Erik', 'Jonas', 'Emma', 'Linnea'],
-    teachers: ['Niklas', 'Thomas', 'Maja'],
+    students: [],
+    teachers: [],
 };
 let lexiconHTML = {
     name: 'html',
