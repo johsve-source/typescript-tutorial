@@ -1,11 +1,10 @@
 "use strict";
-let character = 'maria';
-console.log(character);
-const car = {
-    id: -1,
-    start: (id) => {
-        console.log(`The car ${id} is running!`);
-    },
+const startGame = () => {
+    let messagesElement = document.getElementById('messages');
+    messagesElement.innerText = 'Welcome to MultiMath!, Starting new game..';
 };
-console.log(car.start(0));
+const logPlayer = (name) => {
+    console.log(`New game starting for player: ${name}`);
+};
+document.getElementById('startGame').addEventListener('click', startGame);
 //# sourceMappingURL=sandbox.js.map
