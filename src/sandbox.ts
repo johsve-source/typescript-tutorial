@@ -15,6 +15,24 @@ type LexiconStudent = {
   subjects: string[];
 };
 
+type LexiconMath = {
+  name: string;
+  students: string[];
+  teachers: string[];
+};
+
+type LexiconBiology = {
+  name: string;
+  students: string[];
+  teachers: string[];
+};
+
+type LexiconEnglish = {
+  name: string;
+  students: string[];
+  teachers: string[];
+};
+
 let student1: LexiconStudent = {
   name: 'Johan',
   age: 26,
