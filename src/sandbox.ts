@@ -4,7 +4,15 @@ let lexicon = {
   teachers: [],
 };
 
-const lexiconStudent = {
+type LexiconStudent = {
+  name: string;
+  age: number;
+  gender: string;
+  class: string;
+  subjects: string[];
+};
+
+const lexiconStudent: LexiconStudent = {
   name: 'undefined',
   age: -1,
   gender: 'undefined',
