@@ -13,6 +13,11 @@ type LexiconSubject = {
   teachers: { [key: string]: string };
 };
 
+type LexiconTeacher = {
+  name: string;
+  subjects: string[];
+};
+
 type LexiconStudent = {
   name: string;
   age: number;
@@ -37,6 +42,16 @@ let lexiconJS: LexiconSubject = {
   name: 'javascript',
   students: [],
   teachers: {},
+};
+
+let niklas: LexiconTeacher = {
+  name: 'Niklas',
+  subjects: [],
+};
+
+let thomas: LexiconTeacher = {
+  name: 'Thomas',
+  subjects: [],
 };
 
 let johan: LexiconStudent = {

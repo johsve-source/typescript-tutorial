@@ -22,6 +22,14 @@ let lexiconJS = {
     students: [],
     teachers: {},
 };
+let niklas = {
+    name: 'Niklas',
+    subjects: [],
+};
+let thomas = {
+    name: 'Thomas',
+    subjects: [],
+};
 let johan = {
     name: 'Johan',
     age: 26,
