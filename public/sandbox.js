@@ -7,20 +7,32 @@ let lexicon = {
     students: ['Johan', 'Erik', 'Jonas', 'Emma', 'Linnea'],
     teachers: ['Niklas', 'Thomas', 'Maja'],
 };
-let lexiconMath = {
-    name: 'math',
+let lexiconHTML = {
+    name: 'html',
     students: ['Johan', 'Erik', 'Jonas', 'Emma', 'Linnea'],
-    teachers: ['Niklas', 'Thomas', 'Maja'],
+    teachers: {
+        Niklas: 'HTML Teacher',
+        Thomas: 'HTML Teacher',
+        Maja: 'HTML Teacher',
+    },
 };
-let lexiconBiology = {
-    name: 'biology',
+let lexiconCSS = {
+    name: 'css',
     students: ['Johan', 'Erik', 'Jonas', 'Emma', 'Linnea'],
-    teachers: ['Niklas', 'Thomas', 'Maja'],
+    teachers: {
+        Niklas: 'HTML Teacher',
+        Thomas: 'HTML Teacher',
+        Maja: 'HTML Teacher',
+    },
 };
-let lexiconEnglish = {
-    name: 'english',
+let lexiconJS = {
+    name: 'javascript',
     students: ['Johan', 'Erik', 'Jonas', 'Emma', 'Linnea'],
-    teachers: ['Niklas', 'Thomas', 'Maja'],
+    teachers: {
+        Niklas: 'HTML Teacher',
+        Thomas: 'HTML Teacher',
+        Maja: 'HTML Teacher',
+    },
 };
 let student1 = {
     name: 'Johan',

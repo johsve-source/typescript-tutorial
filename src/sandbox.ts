@@ -10,7 +10,7 @@ let lexicon = {
 type LexiconSubject = {
   name: string;
   students: string[];
-  teachers: string[];
+  teachers: { [key: string]: string };
 };
 
 type LexiconStudent = {
@@ -21,22 +21,34 @@ type LexiconStudent = {
   subjects: string[];
 };
 
-let lexiconMath: LexiconSubject = {
-  name: 'math',
+let lexiconHTML: LexiconSubject = {
+  name: 'html',
   students: ['Johan', 'Erik', 'Jonas', 'Emma', 'Linnea'],
-  teachers: ['Niklas', 'Thomas', 'Maja'],
+  teachers: {
+    Niklas: 'HTML Teacher',
+    Thomas: 'HTML Teacher',
+    Maja: 'HTML Teacher',
+  },
 };
 
-let lexiconBiology: LexiconSubject = {
-  name: 'biology',
+let lexiconCSS: LexiconSubject = {
+  name: 'css',
   students: ['Johan', 'Erik', 'Jonas', 'Emma', 'Linnea'],
-  teachers: ['Niklas', 'Thomas', 'Maja'],
+  teachers: {
+    Niklas: 'HTML Teacher',
+    Thomas: 'HTML Teacher',
+    Maja: 'HTML Teacher',
+  },
 };
 
-let lexiconEnglish: LexiconSubject = {
-  name: 'english',
+let lexiconJS: LexiconSubject = {
+  name: 'javascript',
   students: ['Johan', 'Erik', 'Jonas', 'Emma', 'Linnea'],
-  teachers: ['Niklas', 'Thomas', 'Maja'],
+  teachers: {
+    Niklas: 'HTML Teacher',
+    Thomas: 'HTML Teacher',
+    Maja: 'HTML Teacher',
+  },
 };
 
 let student1: LexiconStudent = {
