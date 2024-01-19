@@ -1,7 +1,10 @@
 let lexicon = {
   name: 'lexicon',
-  students: [],
-  teachers: [],
+  address: 'Kovägen 22',
+  zip: 55655,
+  city: 'Stockholm',
+  students: ['Johan', 'Erik', 'Jonas'],
+  teachers: ['Niklas', 'Thomas', 'Maja'],
 };
 
 type LexiconStudent = {
@@ -12,10 +15,30 @@ type LexiconStudent = {
   subjects: string[];
 };
 
-const lexiconStudent: LexiconStudent = {
-  name: 'undefined',
-  age: -1,
-  gender: 'undefined',
-  class: 'undefined',
-  subjects: [],
+let student1: LexiconStudent = {
+  name: 'Johan',
+  age: 26,
+  gender: 'Male',
+  class: 'React_2023',
+  subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
 };
+
+let student2: LexiconStudent = {
+  name: 'Erik',
+  age: 22,
+  gender: 'Male',
+  class: 'React_2023',
+  subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
+};
+
+let student3: LexiconStudent = {
+  name: 'Jonas',
+  age: 31,
+  gender: 'Male',
+  class: 'React_2023',
+  subjects: ['HTML', 'CSS', 'Javascript', 'Typescript', 'React'],
+};
+
+console.log(student1);
+console.log(student2);
+console.log(student3);
