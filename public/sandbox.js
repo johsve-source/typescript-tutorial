@@ -1,5 +1,7 @@
 "use strict";
 const startGame = () => {
+    let playerName = 'Audrey';
+    logPlayer(playerName);
     let messagesElement = document.getElementById('messages');
     messagesElement.innerText = 'Welcome to MultiMath!, Starting new game..';
 };

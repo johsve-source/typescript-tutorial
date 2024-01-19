@@ -1,4 +1,7 @@
 const startGame = () => {
+  let playerName: string = 'Audrey';
+  logPlayer(playerName);
+
   let messagesElement = document.getElementById('messages');
   messagesElement!.innerText = 'Welcome to MultiMath!, Starting new game..';
 };
