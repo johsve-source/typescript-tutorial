@@ -104,7 +104,7 @@ const addSubjects = (
   person: LexiconStudent | LexiconTeacher,
   subject: string
 ) => {
-  if (name === null || subject === null) {
+  if (person === null || subject === null) {
     return console.log('ERROR: You need to provide the correct information.');
   }
   person.subjects.push(subject);
@@ -116,3 +116,4 @@ const addSubjects = (
 };
 
 addSubjects(niklas, 'HTML');
+addSubjects(johan, 'HTML');

@@ -83,4 +83,5 @@ const addSubjects = (person, subject) => {
     }
 };
 addSubjects(niklas, 'HTML');
+addSubjects(johan, 'HTML');
 //# sourceMappingURL=sandbox.js.map
