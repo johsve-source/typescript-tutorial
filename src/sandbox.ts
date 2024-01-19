@@ -111,7 +111,7 @@ const addSubjects = (
   if (!person.subjects.includes(subject)) {
     return console.log(`${person}'s failed to be added to the subjects lists.`);
   } else {
-    console.log(`${subject} has been added to ${person}'s subjects.`);
+    console.log(`${subject} has been added to ${person.name}'s subjects.`);
   }
 };
 
